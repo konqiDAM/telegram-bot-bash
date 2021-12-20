@@ -498,9 +498,9 @@ To replace a message you must know the message id of the the original message. T
 *example:* 
 ```bash
 send_normal_message "${CHAT[ID]}" "this is a text message"
-saved-id="${BOTSENT[ID]}"
+savedId="${BOTSENT[ID]}"
 
-edit_normal_message "${CHAT[ID]}" "${saved-id}" "this is another text"
+edit_normal_message "${CHAT[ID]}" "${savedId}" "this is another text"
 ```
 
 ##### edit_markdownv2_message
@@ -511,9 +511,9 @@ edit_normal_message "${CHAT[ID]}" "${saved-id}" "this is another text"
 *example:* 
 ```bash
 send_normal_message "${CHAT[ID]}" "this is a text message"
-saved-id="${BOTSENT[ID]}"
+savedId="${BOTSENT[ID]}"
 
-edit_markdownv2_message "${CHAT[ID]}" "${saved-id}" "this is __markdown__ *V2* text"
+edit_markdownv2_message "${CHAT[ID]}" "${savedId}" "this is __markdown__ *V2* text"
 ```
 
 ##### edit_markdown_message
@@ -524,9 +524,9 @@ edit_markdownv2_message "${CHAT[ID]}" "${saved-id}" "this is __markdown__ *V2* t
 *example:* 
 ```bash
 send_normal_message "${CHAT[ID]}" "this is a text message"
-saved-id="${BOTSENT[ID]}"
+savedId="${BOTSENT[ID]}"
 
-edit_markdown_message "${CHAT[ID]}" "${saved-id}" "this is *markdown* text"
+edit_markdown_message "${CHAT[ID]}" "${savedId}" "this is *markdown* text"
 ```
 
 ##### edit_html_message
@@ -537,9 +537,9 @@ edit_markdown_message "${CHAT[ID]}" "${saved-id}" "this is *markdown* text"
 *example:* 
 ```bash
 send_normal_message "${CHAT[ID]}" "this is a text message"
-saved-id="${BOTSENT[ID]}"
+savedId="${BOTSENT[ID]}"
 
-edit_html_message "${CHAT[ID]}" "${saved-id}" "this is <b>html</b> text"
+edit_html_message "${CHAT[ID]}" "${savedId}" "this is <b>html</b> text"
 ```
 
 ##### edit_message_caption
